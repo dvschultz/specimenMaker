@@ -7,14 +7,17 @@ var totalFonts = textFonts.length;
 
 var folder = Folder.selectDialog ("Select the final Location for your specimens");
 
-//
 var saveAs = "pdf" //options: ["pdf","png"];
 
 if ( app.documents.length > 0 ) {
 	
 	currDoc = app.activeDocument;
-	createSpecimen(i);
-	saveOut(i);
+	
+	//loop through activated fonts
+	for (var i = 0; i < totalFonts; i++){
+		createSpecimen(i);
+		saveOut(i);
+	}
 	
 } else {
 	alert("You need to a have a specimen template open in Illustrator before running this script.");

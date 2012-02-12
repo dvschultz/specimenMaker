@@ -7,7 +7,6 @@ var totalFonts = textFonts.length;
 
 var folder = Folder.selectDialog ("Select the final Location for your specimens");
 
-//
 var saveAs = "pdf" //options: ["pdf","png"];
 
 if ( app.documents.length > 0 ) {
