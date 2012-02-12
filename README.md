@@ -9,7 +9,7 @@ SpecimenMaker automates the creation of font specimen sheets in Adobe Illustrato
 4. Open a pre-designed specimen template.
 5. Lock any layers or text frames you don't want updated.
 6. To run Scripts in Illustrator on a Mac, Choose File > Scripts > _Script Name or Script Folder > Script Name_
-7. **Recommended:** Run the "test" script first (if you run the "CreateAll" test without testing, you may have to do a lot or alert clicking—trust me, it sucks).
+7. **Recommended:** Run the "test" script first (if you run the "CreateAll" test without testing, you may have to do a lot of alert box OK'ing — trust me, it sucks).
 8. Run the "CreateAll" script.
 9. Select a Folder you want the final files saved to.
 10. Let it process. Depending on how many fonts you have installed, other apps running, your hardware, etc. this can take anywhere from 5 minutes to 5 hours. It can also take up a lot of space on your hard drive.
